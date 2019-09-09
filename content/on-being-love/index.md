@@ -1,13 +1,10 @@
 ---
 title: "On Being Love"
-description: "For as long as I’ve known this one very dear friend of mine, a friendship spanning for almost a decade now, I’ve been finishing most of our long conversations, often times in the form of a letter…"
+description: "For as long as I’ve known this one very dear friend of mine, a friendship spanning for almost a decade now, I’ve been finishing most of our long conversations, often times in the form of a letter, with 3 simple words: 'Be love today'."
 date: "2018-03-25T20:52:05.933Z"
-categories: 
-  - Love
-  - Kindness
+categories:
   - Mindfulness
-  - Meditation
-  - Relationships
+  - Personal
 
 published: true
 canonical_link: https://medium.com/@magalhini/on-being-love-fcd3122fb182

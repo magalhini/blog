@@ -1,12 +1,10 @@
 ---
-title: "Cinemagraphs — and working with constraints"
-description: "Earlier in 2018, I spotted a random advertisement on Instagram which featured a cinemagraph. As the eternal amateur photographer, my mind immediately responded to this with a very loud and childlike…"
+title: "Cinemagraphs  —  and working with constraints"
+description: "Earlier in 2018, I spotted a random advertisement on Instagram which featured a cinemagraph. As the eternal amateur photographer, my mind immediately responded to this with a very loud and childlike desire to do the same."
 date: "2018-12-31T22:02:07.735Z"
-categories: 
+categories:
   - Photography
   - Art
-  - Cinematography
-  - Animation
 
 published: true
 canonical_link: https://medium.com/@magalhini/cinemagraphs-and-working-with-constraints-c352883a6013

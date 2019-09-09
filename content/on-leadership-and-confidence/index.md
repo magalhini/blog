@@ -1,13 +1,10 @@
 ---
 title: "On Leadership and Confidence"
-description: "Lately I’ve been thinking a lot about just how much impostor syndrome, paired with copious amounts of self-deprecating humour, have been hindering my ability to effectively grow both as a human being…"
+description: "Lately I’ve been thinking a lot about just how much impostor syndrome, paired with copious amounts of self-deprecating humour, have been hindering my ability to effectively grow both as a human being and as a software developer."
 date: "2018-12-19T19:41:14.318Z"
-categories: 
-  - Impostor Syndrome
-  - Self Improvement
+categories:
   - Software Development
   - Management And Leadership
-  - Self-awareness
 
 published: true
 canonical_link: https://medium.com/@magalhini/on-leadership-and-confidence-963217e83e61

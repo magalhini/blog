@@ -2,12 +2,9 @@
 title: "The Ghosts of Montreal"
 description: "It’s Saturday night, but it could very well be any other day of the week. It usually happens during the Summer, as the streets are always more crowded and bustling with life — ah, the life of others…"
 date: "2018-08-22T03:14:43.022Z"
-categories: 
+categories:
   - Photography
   - Montreal
-  - Street Photography
-  - Stories
-  - Self-awareness
 
 published: true
 canonical_link: https://medium.com/@magalhini/the-ghosts-of-montreal-5b7329deb93b

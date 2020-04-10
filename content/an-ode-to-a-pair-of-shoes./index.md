@@ -1,11 +1,9 @@
 ---
-title: "An Ode to a Pair of Shoes."
-description: "It was a long overdue mission, mind you: my running shoes, which have been traveling with me for (quite) a while, have shamefully more holes in them than I could count. But it wasn’t until I came…"
-date: "2016-07-11T06:11:28.784Z"
-categories: 
+title: 'An Ode to a Pair of Shoes.'
+description: 'It was a long overdue mission, mind you: my running shoes, which have been traveling with me for (quite) a while, have shamefully more holes in them than I could count. But it wasn’t until I came…'
+date: '2016-07-11T06:11:28.784Z'
+categories:
   - Running
-  - Memories
-  - Sports
 
 published: true
 canonical_link: https://medium.com/@magalhini/an-ode-to-a-pair-of-shoes-84b9d36317e6

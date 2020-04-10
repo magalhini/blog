@@ -1,17 +1,14 @@
 ---
-title: "Learning gratefulness"
-description: "Gratitude, mindfulness and awareness are the new trendy buzzwords of the self improvement, on every 10 Steps to Be a Better Human articles and endless unidirectional blocks of text that teach you the…"
-date: "2014-06-23T20:00:46.695Z"
-categories: 
+title: 'Learning gratefulness'
+description: 'Gratitude, mindfulness and awareness are the new trendy buzzwords of the self improvement, on every 10 Steps to Be a Better Human articles and endless unidirectional blocks of text that teach you the…'
+date: '2014-06-23T20:00:46.695Z'
+categories:
 
-
-published: true
+published: false
 canonical_link: https://medium.com/@magalhini/learning-gratefulness-f59d938ed2f8
 redirect_from:
   - /learning-gratefulness-f59d938ed2f8
 ---
-
-  
 
 ## By reading an online comic.
 

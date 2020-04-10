@@ -1,12 +1,12 @@
 ---
-title: "The Ghosts of Montreal"
-description: "It’s Saturday night, but it could very well be any other day of the week. It usually happens during the Summer, as the streets are always more crowded and bustling with life — ah, the life of others…"
-date: "2018-08-22T03:14:43.022Z"
+title: 'The Ghosts of Montreal'
+description: 'It’s Saturday night, but it could very well be any other day of the week. It usually happens during the Summer, as the streets are always more crowded and bustling with life — ah, the life of others…'
+date: '2018-08-22T03:14:43.022Z'
 categories:
   - Photography
   - Montreal
 
-published: true
+published: false
 canonical_link: https://medium.com/@magalhini/the-ghosts-of-montreal-5b7329deb93b
 redirect_from:
   - /the-ghosts-of-montreal-5b7329deb93b
@@ -16,7 +16,7 @@ redirect_from:
 
 It’s Saturday night, but it could very well be any other day of the week. It usually happens during the Summer, as the streets are always more crowded and bustling with life — ah, the life of others I know too well. Carrying my camera is my green card to go out into the heart of the city by myself, even on the nights it never ends up leaving the messenger bag. It acts as my hidden permission slip for solitude, on nights like these.
 
-There’s a Murakami book in the messenger bag too, and two lenses I’m not very likely to use. Heading into the _Vieux-Port_ area  of Montreal at 9pm on a Saturday isn’t typically my idea of a fun night, fighting against the swarm of tourists and 20 year-olds finding the next cheap bar to hop into. But as soon as my camera is out of the bag, that’s exactly what I find myself craving. Crowds, faces, anonimity, dodging bodies. It’s not a new feeling, this one. It’s a feeling of solitude I know too damn well, one that’s been haunting me for so long, and since so far away. Some unshakeable baggage, if you will, that’s been following me around.
+There’s a Murakami book in the messenger bag too, and two lenses I’m not very likely to use. Heading into the _Vieux-Port_ area of Montreal at 9pm on a Saturday isn’t typically my idea of a fun night, fighting against the swarm of tourists and 20 year-olds finding the next cheap bar to hop into. But as soon as my camera is out of the bag, that’s exactly what I find myself craving. Crowds, faces, anonimity, dodging bodies. It’s not a new feeling, this one. It’s a feeling of solitude I know too damn well, one that’s been haunting me for so long, and since so far away. Some unshakeable baggage, if you will, that’s been following me around.
 
 It’s a warm night, and walking for so long under the humid Montreal nights turns my body into butter. All of my high-endurance athletic capabilities seem to fade away and my body turns into a morbidly obese one, but I keep pushing it through the crowds. The sounds of a hustling city don’t differ too much from other cities elsewhere. Laughter, the occasional scream, camera shutters and footsteps, lots of footsteps, they’re pretty much the same flavour everywhere, but there’s some comfort in knowing this is so.
 
@@ -50,7 +50,7 @@ I know I’m feeling particularly ashamed of my solitude when my camera settings
 
 ![](./asset-4.jpeg)
 
-_“I want to be a faceless moving ghost in someone else’s camera”_ — this crosses my mind. It sounds so dramatic, something my 17 year-old self would say. I can’t help but to find it funny.
+*“I want to be a faceless moving ghost in someone else’s camera”* — this crosses my mind. It sounds so dramatic, something my 17 year-old self would say. I can’t help but to find it funny.
 
 Hopping on the orange line towards Montmorency, now past midnight, I finally reach for the Murakami book in the messenger bag. It’s _Men Without Women_, and there’s only enough time to read maybe 6 pages before hopping off again. One of those paragraphs describes the city life in Kyoto, and for a few moments I find myself wishing _I were there_. Just like tonight and my previous lives, it wouldn’t make that much of a difference. I picture myself in Kyoto, camera out in my hands. Same feelings, same sounds — just different ghosts. And I’m totally at peace with that thought.
 

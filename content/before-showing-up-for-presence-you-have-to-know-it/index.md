@@ -1,14 +1,14 @@
 ---
-title: "Before Showing Up for Presence, You Have to Know It"
-description: "On the realisation that I would like my defining word for 2017 to be “presence”, I began digging a bit more deeply on what it really means to be present. Presence, the way I’ve grown to see it, is…"
-date: "2017-01-05T21:44:20.951Z"
-categories: 
+title: 'Before Showing Up for Presence, You Have to Know It'
+description: 'On the realisation that I would like my defining word for 2017 to be “presence”, I began digging a bit more deeply on what it really means to be present. Presence, the way I’ve grown to see it, is…'
+date: '2017-01-05T21:44:20.951Z'
+categories:
   - Life
   - Mindfulness
   - Self-awareness
   - Thoughts
 
-published: true
+published: false
 canonical_link: https://medium.com/the-coffeelicious/before-showing-up-for-presence-you-have-to-know-it-9ce4048021ef
 redirect_from:
   - /before-showing-up-for-presence-you-have-to-know-it-9ce4048021ef

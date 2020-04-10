@@ -1,13 +1,9 @@
 ---
-title: "Typography on the Subway: A Trip Around the World"
-description: "Few things are more fascinating than cities. Having lived in a few different countries around the world by now (🇵🇹🇬🇧🇩🇪🇨🇦) , I’m constantly thinking about how one city feels different than the…"
-date: "2018-01-03T15:52:04.859Z"
-categories: 
+title: 'Typography on the Subway: A Trip Around the World'
+description: 'Few things are more fascinating than cities. Having lived in a few different countries around the world by now (🇵🇹🇬🇧🇩🇪🇨🇦) , I’m constantly thinking about how one city feels different than the…'
+date: '2018-01-03T15:52:04.859Z'
+categories:
   - Typography
-  - Transportation
-  - Design
-  - Subway
-  - Typeface
 
 published: true
 canonical_link: https://blog.prototypr.io/typography-on-the-subway-a-trip-around-the-world-463788a76a57
@@ -67,7 +63,7 @@ _Einsteigen, bitte._
 
 Oh, my Berlin. This section could make its own book, so we’ll try to merely be factual about this fantastic city where I had the pleasure to live for a couple of years. Typography alone would be a good enough reason to stick around for a while in Berlin, and we’ll only cover what’s underneath the surface (pun intended).
 
-Officially,  [**FF Transit**](https://www.myfonts.com/fonts/fontfont/ff-transit/) is the typeface of the **BVG** designed by [**MetaDesign**](http://en.metadesign.com) in 1997. But the story of the Berlin transportation system is very far from being _that simple_, and much has been written about how you can almost literally trace Berlin’s own history throughout time just by carefully observing its (many!) typefaces in use.
+Officially, [**FF Transit**](https://www.myfonts.com/fonts/fontfont/ff-transit/) is the typeface of the **BVG** designed by [**MetaDesign**](http://en.metadesign.com) in 1997. But the story of the Berlin transportation system is very far from being _that simple_, and much has been written about how you can almost literally trace Berlin’s own history throughout time just by carefully observing its (many!) typefaces in use.
 
 ![FF Transit Guidelines for Berlin’s BVG ([Source](http://allaboutberlin.com/guides/berlin-bvg-font))](./asset-6.jpeg)
 
@@ -135,10 +131,9 @@ You can see more at Eric’s official typeface [presentation on Behance](https:/
 
 The _Toronto Transit Commission_ opened doors to its subway in 1954, and it has also seen a fair share of typographical attention over half a decade.
 
-![Source: [https://www.blogto.com/city/2011/01/a\_typographical\_history\_of\_the\_toronto\_subway\_system/](https://www.blogto.com/city/2011/01/a_typographical_history_of_the_toronto_subway_system/)](./asset-18.jpeg)
+![Source: [https://www.blogto.com/city/2011/01/a_typographical_history_of_the_toronto_subway_system/](https://www.blogto.com/city/2011/01/a_typographical_history_of_the_toronto_subway_system/)](./asset-18.jpeg)
 
-[**Toronto Subway**](https://www.myfonts.com/fonts/quadrat/toronto-subway/) is a geometric sans-serif typeface designed for the original section of the Toronto Transit Commission’s Yonge subway. However, you’d be forgiven for thinking that Helvetica is still the official typeface for Toronto’s subway: you’ll still find it in some tiled sections of the walls.  
-The font was recreated by David Vereschagin in 2004.
+[**Toronto Subway**](https://www.myfonts.com/fonts/quadrat/toronto-subway/) is a geometric sans-serif typeface designed for the original section of the Toronto Transit Commission’s Yonge subway. However, you’d be forgiven for thinking that Helvetica is still the official typeface for Toronto’s subway: you’ll still find it in some tiled sections of the walls. The font was recreated by David Vereschagin in 2004.
 
 > “**_It was as if it was designed by an engineer and not a typographer”_**, says type and graphic designer David Vereschagin.**_“To see the Toronto Subway lettering fall into disuse and being absolutely eradicated is really sad.”_**
 
@@ -184,7 +179,7 @@ London was also home to me, for a few years, where I had the chance to get absol
 
 **Johnston & New Johnston**
 
-To be perfectly accurate, the typeface we usually see should be referred to as _New Johnston_. The original typeface was designed strictly for wood and large metal printing; all paper prints and documents were still using similar-ish typefaces such as [_Gill Sans_](http://idsgn.org/posts/know-your-type-gill-sans/) _(aka, the Helvetica of England)_. It wasn’t until 1970, when Johnston was becoming a pain in the butt for printers to use properly, that it was redesigned for cold type. This work was performed in 1979 by Eiichi Kono at [Banks & Miles](https://en.wikipedia.org/wiki/Banks_%26_Miles "Banks & Miles"), which would then produce **New Johnston,** first appearing in subway stations in early 1983.
+To be perfectly accurate, the typeface we usually see should be referred to as _New Johnston_. The original typeface was designed strictly for wood and large metal printing; all paper prints and documents were still using similar-ish typefaces such as [_Gill Sans_](http://idsgn.org/posts/know-your-type-gill-sans/) _(aka, the Helvetica of England)_. It wasn’t until 1970, when Johnston was becoming a pain in the butt for printers to use properly, that it was redesigned for cold type. This work was performed in 1979 by Eiichi Kono at [Banks & Miles](https://en.wikipedia.org/wiki/Banks_%26_Miles 'Banks & Miles'), which would then produce **New Johnston,** first appearing in subway stations in early 1983.
 
 But of course, there are always exceptions. It’s still possible to find cheeky deviations to the norm, such as a couple of signs at the West Brompton station:
 
@@ -264,7 +259,7 @@ Beautiful Montréal, my current home 🍁. Since 2015, STM has been rolling out 
 
 ![[Own photo](http://www.instagram.com/magalhini)](./asset-43.jpeg)
 
-_(and on a side note, right behind this entrance you’ll find the fantastic Shopify office. Little did I know that when I first shot this, I’d be working right there…_ 😍_)_
+_(and on a side note, right behind this entrance you’ll find the fantastic Shopify office. Little did I know that when I first shot this, I’d be working right there…_ 😍*)*
 
 But the most astute of you will have noticed that it’s still possible to see signage that’s set in **Univers**; and you’d be right, since this was the typeface prior to the release of FF Transit. From STM themselves:
 
@@ -307,7 +302,7 @@ And we barely scratched the surface on the topic… New York didn't make this li
 7.  [BBC article on Johnston](http://www.bbc.com/news/magazine-35916807)
 8.  [Prague City Transport](http://www.prague.fm/city-transport/)
 9.  [Univers, by Adam Frutiger](http://www.historygraphicdesign.com/the-age-of-information/the-international-typographic-style/735-univers)
-10.  A story of [Toronto’s Subway in type](https://joeclark.org/appearances/atypi/2007/TTC/inscribed/)
+10. A story of [Toronto’s Subway in type](https://joeclark.org/appearances/atypi/2007/TTC/inscribed/)
 
 > Did you enjoy this article? Would you be interested in a follow up article with other subway systems in the world? Let me know! Tweet it, clap it, comment, or print it and tape it to a tree.
 

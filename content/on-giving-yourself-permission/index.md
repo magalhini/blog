@@ -1,12 +1,8 @@
 ---
-title: "On Giving Yourself Permission"
-description: "Lately I’ve found myself coming back to a thought from Olivia Laing, which you can find in her immensely beautiful and emotion-stirring book The Lonely City. The striking power of this thought comes…"
-date: "2017-08-14T13:26:51.686Z"
-categories: 
-  - Depression
-  - Loneliness
-  - Mental Health
-  - Life
+title: 'On Giving Yourself Permission'
+description: 'Lately I’ve found myself coming back to a thought from Olivia Laing, which you can find in her immensely beautiful and emotion-stirring book The Lonely City. The striking power of this thought comes…'
+date: '2017-08-14T13:26:51.686Z'
+categories:
   - Life Lessons
 
 published: true
@@ -37,5 +33,4 @@ _“I shouldn’t be feeling this”_ is perhaps one of the most dangerous thoug
 
 —
 
-_Post written in Berlin, August 2017.  
-The weather was hot but just lightly sunny. Around me there was mostly the klink and klank sounds of cash registers, milk steaming, coffee beans grinding, and undistinguishable chit chat from random strangers. In other words, home._
+_Post written in Berlin, August 2017. The weather was hot but just lightly sunny. Around me there was mostly the klink and klank sounds of cash registers, milk steaming, coffee beans grinding, and undistinguishable chit chat from random strangers. In other words, home._

@@ -1,9 +1,10 @@
 ---
-title: "A Japan Photo Essay"
-description: "In May of 2019, I set out to do a rather ambitious journey: running across Japan. Of course, not really running across Japan, but rather…"
-date: "2019-06-17T02:23:41.001Z"
-categories: []
-published: false
+title: 'A Japan Photo Essay'
+description: 'In May of 2019, I set out to do a rather ambitious journey: running across Japan. Of course, not really running across Japan, but rather…'
+date: '2019-06-17T02:23:41.001Z'
+categories:
+  - Photography
+published: true
 ---
 
 In May of 2019, I set out to do a rather ambitious journey: running across Japan. Of course, not really _running across Japan_, but rather, several segments of different cities, villages and mountains, while still taking public transportation from major city to major city.

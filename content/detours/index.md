@@ -1,11 +1,10 @@
 ---
-title: "Detours"
-description: "Only a few meters after it departed, the bus took a different turn: it went the opposite way at the roundabout. Right instead of left, 180º instead of 0º. East instead of West. No signaling of any…"
-date: "2014-07-28T22:09:26.399Z"
-categories: 
+title: 'Detours'
+description: 'Only a few meters after it departed, the bus took a different turn: it went the opposite way at the roundabout. Right instead of left, 180º instead of 0º. East instead of West. No signaling of any…'
+date: '2014-07-28T22:09:26.399Z'
+categories:
 
-
-published: true
+published: false
 canonical_link: https://medium.com/@magalhini/detours-2c283f8b6e93
 redirect_from:
   - /detours-2c283f8b6e93

@@ -1,11 +1,10 @@
 ---
-title: "There are only two kinds of people."
-description: "Disclaimer: it’s officially a waste of time reading and researching more and more articles about the complexity of the human being, the seven personalities types or the quirks of the human brain…"
-date: "2014-08-18T21:06:17.901Z"
-categories: 
+title: 'There are only two kinds of people.'
+description: 'Disclaimer: it’s officially a waste of time reading and researching more and more articles about the complexity of the human being, the seven personalities types or the quirks of the human brain…'
+date: '2014-08-18T21:06:17.901Z'
+categories:
 
-
-published: true
+published: false
 canonical_link: https://medium.com/@magalhini/there-are-only-two-kinds-of-people-964981f835e4
 redirect_from:
   - /there-are-only-two-kinds-of-people-964981f835e4
@@ -41,7 +40,7 @@ I remember spotting a woman that pretended to get a bubble into her eye, so she 
 
 Being generally shy, it took me a while to blow these suckers away like it was 1999. And every time I did, I noticed how some people avoided all kinds of eye contact with me. They were scared; were we drunk? Hmm, hard to tell. A couple of women walked away to the other side of the carriage, nodding their heads.
 
-A 20_\-ish_ year old vigorously shook the bubbles away, rolling his eyes every time. I kept blowing them in his direction.
+A 20*\-ish* year old vigorously shook the bubbles away, rolling his eyes every time. I kept blowing them in his direction.
 
 It was amazing to notice how people became so enclosed in a routine where anything out of the ordinary is something to be avoided. Meanwhile, the other half was having the time of their lives — we even gave the containers away to a couple of kids who immediately began to blow the bubbles away as soon as they stepped out of the train.
 

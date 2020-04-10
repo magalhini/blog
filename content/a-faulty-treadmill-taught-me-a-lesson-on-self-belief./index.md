@@ -1,15 +1,15 @@
 ---
-title: "A faulty treadmill taught me a lesson on self-belief."
-description: "It’s the most boring of stories, and yet one I’d like to keep with me for a good, long while. Being an avid runner and a statistics freak, I’m constantly aiming to improve the speeds and distances at…"
-date: "2017-03-18T21:41:55.981Z"
-categories: 
+title: 'A faulty treadmill taught me a lesson on self-belief.'
+description: 'It’s the most boring of stories, and yet one I’d like to keep with me for a good, long while. Being an avid runner and a statistics freak, I’m constantly aiming to improve the speeds and distances at…'
+date: '2017-03-18T21:41:55.981Z'
+categories:
   - Running
   - Motivation
   - Psychology
   - Life Lessons
   - Mental Health
 
-published: true
+published: false
 canonical_link: https://medium.com/@magalhini/a-faulty-treadmill-taught-me-a-lesson-on-self-belief-3e78f2f517fe
 redirect_from:
   - /a-faulty-treadmill-taught-me-a-lesson-on-self-belief-3e78f2f517fe

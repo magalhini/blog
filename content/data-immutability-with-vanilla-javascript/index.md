@@ -22,67 +22,67 @@ _Playground:_ [_Direct link to the JS Bin_](http://jsbin.com/kikajon/edit?js,con
 
 ### Objects
 
-Let’s take an initial object, `person`, which we can think of as being a piece of application state, that we want to mutate. À là redux thinking, we should always return a new copy of this state and **never change it directly**.
+Let’s take an initial object, _person_, which we can think of as being a piece of application state, that we want to mutate. À là redux thinking, we should always return a new copy of this state and **never change it directly**.
 
-```
+```js
 const person = {
   name: 'Ricardo',
   location: 'Berlin',
-  interests: { coffee: 9, climbing: 9, wasps: 0 }
-};
+  interests: { coffee: 9, climbing: 9, wasps: 0 },
+}
 ```
 
 ### Changing a simple object property
 
-Modifying a top level property is remarkably simple using `Object.assign`. We'll explore more of its use cases (and alternatives) in a little bit, but for now let's simply create a modified copy of our object with `name` set to "Douglas".
+Modifying a top level property is remarkably simple using _Object.assign_. We'll explore more of its use cases (and alternatives) in a little bit, but for now let's simply create a modified copy of our object with _name_ set to "Douglas".
 
-```
+```js
 const updatedPerson = Object.assign({}, person, {
-  name: 'Douglas'
-});
+  name: 'Douglas',
+})
 ```
 
 _Simples_. We’re telling Object.assign to _take this empty {}, apply person on top, and modify the name property_. The rest of our object looks the same.
 
 ### Changing deeply nested properties
 
-Here’s a common mistake when using `Object.assign` to copy an object: forgetting to copy the **inner objects** we're trying to mutate. Let's say we want to change the _coffee_ interest to _10_ and `location` from "Berlin" to the "Moon" (a common train route from Berlin). What if we try the following application:
+Here’s a common mistake when using _Object.assign_ to copy an object: forgetting to copy the **inner objects** we're trying to mutate. Let's say we want to change the _coffee_ interest to _10_ and _location_ from "Berlin" to the "Moon" (a common train route from Berlin). What if we try the following application:
 
-```
+```js
 const updated = Object.assign({}, person, {
   location: 'Moon',
   interests: {
-    coffee: 10 // Crap! Only this one is copied
-  }
-});
+    coffee: 10, // Crap! Only this one is copied
+  },
+})
 ```
 
-On the surface, it might seem like this works, but this doesn’t copy the rest of the `interests` object. It will leave us with an updated `{coffee: 10}` and `location: 'Moon'`, but it won't copy `climbing` or `wasps`. No one needs wasps, anyway. But how do we solve this?
+On the surface, it might seem like this works, but this doesn’t copy the rest of the _interests_ object. It will leave us with an updated _{coffee: 10}_ and _location: 'Moon'_, but it won't copy _climbing_ or _wasps_. No one needs wasps, anyway. But how do we solve this?
 
-Instead, we need to also deeply copy the `interests` object, like so:
+Instead, we need to also deeply copy the _interests_ object, like so:
 
-```
+```js
 const updated = Object.assign({}, person, {
   location: 'Moon',
   interests: Object.assign({}, person.interests, {
-    coffee: 10 // All other interests are copied
-  })
-});
+    coffee: 10, // All other interests are copied
+  }),
+})
 ```
 
-Notice the double `Object.assign`. A bit verbose, in truth, as all objects need to be assigned in order not to lose properties.
+Notice the double _`\_Object.assign_`\_. A bit verbose, in truth, as all objects need to be assigned in order not to lose properties.
 
 ### Spread operators
 
-We can make this look more tidy by making use of the `spread` operator, which takes the form of `...` — in fact, the previous example can be re-written as:
+We can make this look more tidy by making use of the _`\_spread_`_ operator, which takes the form of _`_..._`\_ — in fact, the previous example can be re-written as:
 
-```
+```js
 const updated = {
   ...person,
   interests: {
     ...person.interests,
     coffee: 10,
-  }
+  },
 }
 ```
 
@@ -90,31 +90,32 @@ Much nicer to look at! Spread operators are so incredible that you should defini
 
 ### Deleting properties
 
-Now, onto deleting (or removing) properties from objects. The `delete` keyword is a mutating action, so we can't use it when we're thinking about immutable data.
+Now, onto deleting (or removing) properties from objects. The _delete_ keyword is a mutating action, so we can't use it when we're thinking about immutable data.
 
 There’s a few different ways to go around it, some more efficient than others. One (slow-ish) approach is to recreate our entire object, but **ignoring the properties we want to be removed**. Let’s create a function that accepts our object, and the name of the property we would like to see removed:
 
-```
+```js
 const removeProperty = (obj, property) => {
   return Object.keys(obj).reduce((acc, key) => {
     if (key !== property) {
-      return {...acc, [key]: obj[key]} }
-    return acc;
+      return { ...acc, [key]: obj[key] }
+    }
+    return acc
   }, {})
 }
 ```
 
 _Note: this was written in long form for readability’s sake. You can omit some of those return statements._
 
-It looks a bit convoluted, but what’s happening is pretty simple: for each key that **is not** the one we passed, we keep adding them to the accumulator, returned by the `reduce` function. So now, if we wanted the `interests` property removed from our `person` object, we can use this like so:
+It looks a bit convoluted, but what’s happening is pretty simple: for each key that **is not** the one we passed, we keep adding them to the accumulator, returned by the _reduce_ function. So now, if we wanted the _interests_ property removed from our _person_ object, we can use this like so:
 
-```
-const updated = removeProperty(person, 'interests');
+```js
+const updated = removeProperty(person, 'interests')
 ```
 
 Which would give us a brand new copy of the object, except for that one ignored property:
 
-```
+```js
 { name: 'Ricardo', location: 'Berlin', }
 ```
 
@@ -122,9 +123,9 @@ Which would give us a brand new copy of the object, except for that one ignored 
 
 If you’re using **lodash** in your project, then you can make use of some its methods to help you change objects. **However, you should note that by default, some of lodash’s methods mutate the original objects**, which more often than not will mess up your immutable data. An exception, however, is [the](https://lodash.com/docs/4.17.4#omit) `[_.omit](https://lodash.com/docs/4.17.4#omit)` [method](https://lodash.com/docs/4.17.4#omit), which you can use to delete a property from an object.
 
-Once again, let’s try and remove the `interests` property like we did before, but using lodash. This time, we'll write it in a reducer-style function, just as an example:
+Once again, let’s try and remove the _interests_ property like we did before, but using lodash. This time, we'll write it in a reducer-style function, just as an example:
 
-```
+```js
 import { omit } from lodash;
 
 const reducer = (state, action) => {
@@ -139,11 +140,11 @@ const reducer = (state, action) => {
 
 This will work, even without the _/fp_ subset of lodash. So if you’re already using lodash, you’ll get this for free. We could use it like this:
 
-```
+```js
 const newState = reducer(person, {
   type: 'DELETE_KEY',
-  key: 'interests'
-});
+  key: 'interests',
+})
 ```
 
 _…which would give us the same result. Once again, be weary of using some lodash methods when reassigning data, as_ **_most of their methods mutate the original object_**_. Consider using the_ [_/fp_](https://github.com/lodash/lodash/wiki/FP-Guide) _subset variation._
@@ -154,12 +155,12 @@ It can be hard to grasp how to mix and match these operations for objects. Recom
 
 Consider our original data, an array of users with a name and an ID:
 
-```
+```js
 const users = [
-  {name: 'john', id: 176},
-  {name: 'gary', id: 288},
-  {name: 'louise', id: 213}
-];
+  { name: 'john', id: 176 },
+  { name: 'gary', id: 288 },
+  { name: 'louise', id: 213 },
+]
 ```
 
 In **Redux**, it’s common practice to [normalise your application state](http://redux.js.org/docs/recipes/reducers/NormalizingStateShape.html), by having data grouped by ID for easier lookups. So let’s say this is what we want to do: we want a **new array** which has the users **grouped by ID**. For kicks, let’s also have the **first letter of their names uppercased.**
@@ -168,48 +169,57 @@ In short, we want to go from the first table, to the second one:
 
 ![](./asset-1.png)
 
-How do we return the `object.id` as a key, though? This is where you'll see the `[item.id]: something` notation. It allows you to dynamically pull in the value and use it as a key. So with that in mind, let's write our `byId` function that also uppercases the first letter:
+How do we return the _object.id_ as a key, though? This is where you'll see the _[item.id]: something_ notation. It allows you to dynamically pull in the value and use it as a key. So with that in mind, let's write our _byId_ function that also uppercases the first letter:
 
-```
-const byId = (state) => state.reduce((acc, item) => ({
-  ...acc,
-  [item.id]: Object.assign({}, item, {
-    name: item.name.charAt(0).toUpperCase() + item.name.slice(1)
-   })
-}), {})
+```js
+const byId = state =>
+  state.reduce(
+    (acc, item) => ({
+      ...acc,
+      [item.id]: Object.assign({}, item, {
+        name: item.name.charAt(0).toUpperCase() + item.name.slice(1),
+      }),
+    }),
+    {}
+  )
 ```
 
 If this method could talk, here’s what it would say:
 
-_Hey, you there: For my state, apply the_ `_reduce_` _method, which will give you an accumulator starting with an empty {}, and all my items. For each one, spread the accumulated properties, but add a new key with the value of each \[item.id\]. Inside each one of those, make a copy of_ `_item_`_, but also modify its_ `_name_` _property while you’re at it._
+_Hey, you there: For my state, apply the_ _reduce_ _method, which will give you an accumulator starting with an empty {}, and all my items. For each one, spread the accumulated properties, but add a new key with the value of each \[item.id\]. Inside each one of those, make a copy of_ _item\_\_, but also modify its_ _name_ _property while you’re at it._
 
-This will **return a new object with the ID of each user as the key**, spreading all their values into each object, and modify their `name` properties to have the first character uppercase.
+This will **return a new object with the ID of each user as the key**, spreading all their values into each object, and modify their _name_ properties to have the first character uppercase.
 
-What if we wanted to update more properties, other than just the name of the user? This is where you’ll think about combining **pure functions** in order to manipulate the data as you need, but always returning a new copy. Let’s refactor this a little bit by creating a `updateUser` function:
+What if we wanted to update more properties, other than just the name of the user? This is where you’ll think about combining **pure functions** in order to manipulate the data as you need, but always returning a new copy. Let’s refactor this a little bit by creating a _updateUser_ function:
 
-```
-const updateUser = (user) => Object.assign({}, user, {
-  name: user.name.charAt(0).toUpperCase() + user.name.slice(1)
-});
+```js
+const updateUser = user =>
+  Object.assign({}, user, {
+    name: user.name.charAt(0).toUpperCase() + user.name.slice(1),
+  })
 
-const byId = (state) => state.reduce((acc, item) => ({
-  ...acc,
-  [item.id]: updateUser(item),
-}), {})
+const byId = state =>
+  state.reduce(
+    (acc, item) => ({
+      ...acc,
+      [item.id]: updateUser(item),
+    }),
+    {}
+  )
 ```
 
 All we need now to get a new piece of state with our users grouped by ID is simply:
 
-```
-const usersById = byId(users);
+```js
+const usersById = byId(users)
 ```
 
 ### Arrays
 
 Cool, so what about immutability in arrays? Let’s consider an original piece of immutable data:
 
-```
-const original = ['a', 'c', 'd', 'e'];
+```js
+const original = ['a', 'c', 'd', 'e']
 ```
 
 Having an array, you would often want to do one of the following:
@@ -221,7 +231,7 @@ Having an array, you would often want to do one of the following:
 
 ### Inserting by index
 
-We’ve conveniently forgot to add `b` next to the `a` value in our index. Oh no, what a tremendous disaster for our alphabet app! How do we insert an item at a given index, in an immutable fashion? One way to think about it is to:
+We’ve conveniently forgot to add **b** next to the **a** value in our index. Oh no, what a tremendous disaster for our alphabet app! How do we insert an item at a given index, in an immutable fashion? One way to think about it is to:
 
 1.  _Copy the array_ **_until_** _the specified index_
 2.  Insert our item
@@ -231,56 +241,56 @@ So we could write a helper function with the following signature:
 
 `insertByIndex = (state, newItem, insertAt)`
 
-> _Where_ `_state_` _is the original array,_ `_newItem_` _is the value of the item we'd like to add, and_ `_insertAt_` _is a number (index) at which location we want to insert our_ `_newItem_`_._
+> _Where_ _state_ _is the original array,_ _newItem_ _is the value of the item we'd like to add, and_ _insertAt_ _is a number (index) at which location we want to insert our_ _newItem\_\_._
 
 A simple way to write such a helper function could be the following:
 
-```
+```js
 const insertByIndex = (state, newItem, insertAt) => [
   ...state.slice(0, insertAt),
   newItem,
-  ...state.slice(insertAt)
+  ...state.slice(insertAt),
 ]
 ```
 
 _Wait, what?_
 
-Okay, let’s break this down. We’ve already seen that the `spread` operator (...) copies values, and that's exactly what we're doing here. First, we're returning a new Array; copy it from the beginning until our index, insert our new value (`b`), then copy the rest of the array from there.
+Okay, let’s break this down. We’ve already seen that the _spread_ operator (...) copies values, and that's exactly what we're doing here. First, we're returning a new Array; copy it from the beginning until our index, insert our new value (b), then copy the rest of the array from there.
 
 So an example of its usage would be:
 
-```
+```js
 insertByIndex(original, 'b', 1)
 // ["a", "b", "c", "d", "e"]
 ```
 
 ### Removing by index
 
-Removing an Array by index is much simpler, luckily, as long as we can afford to use `Array.filter`. Let's think: The `filter` method gives us the index value as the second argument, so that means we want to return _all values which don't have the index of N_.
+Removing an Array by index is much simpler, luckily, as long as we can afford to use _Array.filter_. Let's think: The _filter_ method gives us the index value as the second argument, so that means we want to return _all values which don't have the index of N_.
 
-```
-const removeByIndex = (arr, at) => arr.filter((item, idx) => idx !== at);
+```js
+const removeByIndex = (arr, at) => arr.filter((item, idx) => idx !== at)
 ```
 
 ### Removing by item
 
-If you want to remove an item directly (say, `b`, instead of its index), we can still use `filter` like we did previously, but we'll filter out the item itself and forget about the index:
+If you want to remove an item directly (say, b, instead of its index), we can still use _filter_ like we did previously, but we'll filter out the item itself and forget about the index:
 
-```
-const removeByItem = (arr, value) => arr.filter((item) => item !== value);
+```js
+const removeByItem = (arr, value) => arr.filter(item => item !== value)
 ```
 
 ### Adding an item
 
-Adding an item to the end of an Array is also quite simple, but **don’t you dare to think of push!** In fact, good old `concat()` is your immutable friend. Using `.push` mutates the original array, which will inevitably lead to unpredictable behaviour.
+Adding an item to the end of an Array is also quite simple, but **don’t you dare to think of push!** In fact, good old _concat()_ is your immutable friend. Using *.push* mutates the original array, which will inevitably lead to unpredictable behaviour.
 
-```
-const addItem = (arr, value) => arr.concat(value);
+```js
+const addItem = (arr, value) => arr.concat(value)
 ```
 
-So if we wanted to add `banana` to our alphabet array (why wouldn't you?), we could do:
+So if we wanted to add _banana_ to our alphabet array (why wouldn't you?), we could do:
 
-```
+```js
 addItem(original, 'banana') // ["a", "c", "d", "e", "banana"]
 ```
 
@@ -302,5 +312,3 @@ Anything I might have overlooked or gotten wrong? Don’t be afraid to ping me o
 ---
 
 _Originally published on my personal blog at_ [_blog.ricardofilipe.com_](http://blog.ricardofilipe.com/post/immutable-changes-in-js)
-
-<Embed src="https://upscri.be/dde502?as_embed=true" aspectRatio={undefined} caption="" />

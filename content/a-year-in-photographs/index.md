@@ -3,6 +3,7 @@ title: 'A Year in Photographs'
 description: 'Every year, I find myself saying the same words all over again: “This is the year I’ll shoot more often, and be bolder with my photography!” And, of course, it never really lasts for long. But 2018 was a good year for photos.'
 date: '2019-01-04T03:24:52.640Z'
 categories:
+  - Photography
 
 published: true
 canonical_link: https://medium.com/@magalhini/a-year-in-photographs-d5e2023d3c

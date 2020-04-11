@@ -3,7 +3,7 @@ title: 'A Japan Photo Essay'
 description: 'In May of 2019, I set out to do a rather ambitious journey: running across Japan. Of course, not really running across Japan, but rather…'
 date: '2019-06-17T02:23:41.001Z'
 categories:
-
+  - Photography
 published: true
 ---
 

@@ -1,10 +1,10 @@
-const path = require('path');
-const _ = require('lodash');
-const { createFilePath } = require('gatsby-source-filesystem');
+const path = require('path')
+const _ = require('lodash')
+const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.sourceNodes = ({ actions }) => {
-	const { createTypes } = actions;
-	const typeDefs = `
+  const { createTypes } = actions
+  const typeDefs = `
     type Mdx implements Node {
       frontmatter: Frontmatter
     }
@@ -17,35 +17,35 @@ exports.sourceNodes = ({ actions }) => {
       categories: [String]
       redirect_from: [String]
     }
-  `;
-	createTypes(typeDefs);
-};
+  `
+  createTypes(typeDefs)
+}
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-	const { createNodeField } = actions;
+  const { createNodeField } = actions
 
-	if (node.internal.type === 'Mdx') {
-		const value = createFilePath({ node, getNode });
-		createNodeField({
-			name: 'slug',
-			node,
-			value
-		});
+  if (node.internal.type === 'Mdx') {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: 'slug',
+      node,
+      value,
+    })
 
-		createNodeField({
-			name: 'published',
-			node,
-			value: node.frontmatter.published
-		});
-	}
-};
+    createNodeField({
+      name: 'published',
+      node,
+      value: node.frontmatter.published,
+    })
+  }
+}
 
 exports.createPages = ({ graphql, actions, reporter, pathPrefix }) => {
-	const tagTemplate = path.resolve('src/templates/tags.js');
-	const { createPage, createRedirect } = actions;
+  const tagTemplate = path.resolve('src/templates/tags.js')
+  const { createPage, createRedirect } = actions
 
-	return graphql(
-		`
+  return graphql(
+    `
       {
         allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
           edges {
@@ -64,76 +64,76 @@ exports.createPages = ({ graphql, actions, reporter, pathPrefix }) => {
         }
       }
     `
-	).then((result) => {
-		if (result.errors && result.errors.length) {
-			if (result.errors.length === 1) {
-				throw new Error(result.errors[0]);
-			}
+  ).then(result => {
+    if (result.errors && result.errors.length) {
+      if (result.errors.length === 1) {
+        throw new Error(result.errors[0])
+      }
 
-			result.errors.forEach((error) => {
-				reporter.error('Error while querying the mdx', error);
-			});
+      result.errors.forEach(error => {
+        reporter.error('Error while querying the mdx', error)
+      })
 
-			throw new Error('See errors above');
-		}
+      throw new Error('See errors above')
+    }
 
-		let tags = [];
+    let tags = []
 
-		const posts = result.data.allMdx.edges;
+    const posts = result.data.allMdx.edges
 
-		// Iterate through each post, putting all found tags into `tags`
-		_.each(posts, (edge) => {
-			if (_.get(edge, 'node.frontmatter.categories')) {
-				tags = tags.concat(edge.node.frontmatter.categories);
-			}
-		});
+    // Iterate through each post, putting all found tags into `tags`
+    _.each(posts, edge => {
+      if (_.get(edge, 'node.frontmatter.categories')) {
+        tags = tags.concat(edge.node.frontmatter.categories)
+      }
+    })
 
-		tags = _.uniq(tags);
+    // tags = _.uniq(tags);
 
-		tags.forEach((tag) => {
-			createPage({
-				path: `/tags/${_.kebabCase(tag)}/`,
-				component: tagTemplate,
-				context: {
-					tag
-				}
-			});
-		});
+    // tags.forEach((tag) => {
+    // 	createPage({
+    // 		path: `/tags/${_.kebabCase(tag)}/`,
+    // 		component: tagTemplate,
+    // 		context: {
+    // 			tag
+    // 		}
+    // 	});
+    // });
 
-		// We'll call `createPage` for each result
-		posts.forEach(({ node }, index) => {
-			let previous = index === posts.length - 1 ? null : posts[index + 1].node;
-			let next = index === 0 ? null : posts[index - 1].node;
+    // We'll call `createPage` for each result
+    posts.forEach(({ node }, index) => {
+      let previous = index === posts.length - 1 ? null : posts[index + 1].node
+      let next = index === 0 ? null : posts[index - 1].node
 
-			if (previous && !previous.fields.published) {
-				previous = null;
-			}
-			if (next && !next.fields.published) {
-				next = null;
-			}
+      if (previous && !previous.fields.published) {
+        previous = null
+      }
+      if (next && !next.fields.published) {
+        next = null
+      }
 
-			const pagePath = `${pathPrefix}${node.fields.slug}`;
+      const pagePath = `${pathPrefix}${node.fields.slug}`
 
-			createPage({
-				path: pagePath,
-				component: path.resolve(`./src/templates/blog-post.js`),
-				context: { id: node.id, previous, next }
-			});
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/blog-post.js`),
+        context: { id: node.id, previous, next },
+      })
 
-			if (
-				node.frontmatter &&
-				node.frontmatter.redirect_from &&
-				Array.isArray(node.frontmatter.redirect_from) &&
-				node.frontmatter.redirect_from.length
-			) {
-				node.frontmatter.redirect_from.forEach((fromPath) => {
-					createRedirect({
-						fromPath,
-						toPath: pagePath,
-						isPermanent: true
-					});
-				});
-			}
-		});
-	});
-};
+      if (
+        node.frontmatter &&
+        node.frontmatter.redirect_from &&
+        Array.isArray(node.frontmatter.redirect_from) &&
+        node.frontmatter.redirect_from.length
+      ) {
+        node.frontmatter.redirect_from.forEach(fromPath => {
+          createRedirect({
+            fromPath,
+            toPath: pagePath,
+            isPermanent: true,
+          })
+        })
+      }
+    })
+  })
+}

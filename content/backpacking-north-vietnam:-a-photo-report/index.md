@@ -1,12 +1,11 @@
 ---
-title: "Backpacking North Vietnam: A Photo Report"
-description: "Vietnam was, and still is, one of the places that heavily piqued my curiosity. The media, as well as most cinematic appearances, never really portrayed Vietnam outside of this unknown, almost…"
-date: "2016-10-27T17:52:04.409Z"
-categories: 
+title: 'Backpacking North Vietnam: A Photo Report'
+description: 'Vietnam was, and still is, one of the places that heavily piqued my curiosity. The media, as well as most cinematic appearances, never really portrayed Vietnam outside of this unknown, almost…'
+date: '2016-10-27T17:52:04.409Z'
+categories:
   - Travel
   - Vietnam
   - Wanderlust
-  - Photography
   - Backpacking
 
 published: true
@@ -15,7 +14,7 @@ redirect_from:
   - /backpacking-north-vietnam-a-photo-report-f9cc8b4abe15
 ---
 
-V_ietnam was, and still is, one of the places that heavily piqued my curiosity. The media, as well as most cinematic appearances, never really portrayed Vietnam outside of this unknown, almost unworthy of love country of conflict, always associated with this very misunderstood war. But I knew Vietnam was also home to something very different; gentle and forgiving souls, an incredible food scene from north to south, beautiful ethnic minorities everywhere and a handful of different kinds of gorgeous scenery, ranging from high mountains to paradisiac beaches._
+V*ietnam was, and still is, one of the places that heavily piqued my curiosity. The media, as well as most cinematic appearances, never really portrayed Vietnam outside of this unknown, almost unworthy of love country of conflict, always associated with this very misunderstood war. But I knew Vietnam was also home to something very different; gentle and forgiving souls, an incredible food scene from north to south, beautiful ethnic minorities everywhere and a handful of different kinds of gorgeous scenery, ranging from high mountains to paradisiac beaches.*
 
 This is the short-form (yes, short!) report of what I’ve experienced, seen and done exploring the north of Vietnam for almost two weeks, traveling slowly. Stay for the pictures, or to take away some itinerary ideas for your own trip.
 
@@ -197,7 +196,7 @@ I found that [**Ethnic Travel**](http://www.ethnictravel.com.vn/) do off the bea
 
 A trip to Bai Tu Long Bay ends with an overnight stay at the incredibly remote [Quan Lan Island](http://wikitravel.org/en/Quan_Lan):
 
-> Quan Lạn has been sparsely inhabited for quite some time. There are a few thousand residents and an influx of local tourists from Hanoi on weekends and holidays. The island itself is pretty sandy and has little in the way of forest, unlike others nearby such as [Ban Sen](http://wikitravel.org/en/Ban_Sen "Ban Sen"). Today, ports exist both at the northern and southern tips of the island. It is a less developed and less touristy alternative to the more popular Cat Ba Island.
+> Quan Lạn has been sparsely inhabited for quite some time. There are a few thousand residents and an influx of local tourists from Hanoi on weekends and holidays. The island itself is pretty sandy and has little in the way of forest, unlike others nearby such as [Ban Sen](http://wikitravel.org/en/Ban_Sen 'Ban Sen'). Today, ports exist both at the northern and southern tips of the island. It is a less developed and less touristy alternative to the more popular Cat Ba Island.
 
 Even less touristy than Cat Ba? Count me in! After negotiating my way in for a last minute tour with Ethnic Travel, and after getting in the wrong bus to get to the first leg of the journey (that’s a story for another time), some painful six hours of driving awaited until we got to the port in Bai Tu Long Bay. The upside: there were only three of us for this tour. **Only, three, people**. We had one of the junk boats to ourselves, and I can’t stress this enough: getting off the beaten path takes hard work sometimes, but sometimes it pays off really, really well.
 

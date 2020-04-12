@@ -1,17 +1,14 @@
 ---
-title: "Licking the yoghurt lid"
-description: "Most of these range from voting polls to determine if the majority of the population is a yoghurt lid licker or not, others try to convince you why it’s gross and why you shouldn’t do it. Some even…"
-date: "2014-06-08T22:13:44.400Z"
-categories: 
+title: 'Licking the yoghurt lid'
+description: 'Most of these range from voting polls to determine if the majority of the population is a yoghurt lid licker or not, others try to convince you why it’s gross and why you shouldn’t do it. Some even…'
+date: '2014-06-08T22:13:44.400Z'
+categories:
 
-
-published: true
+published: false
 canonical_link: https://medium.com/@magalhini/licking-the-yoghurt-lid-36be7816bf6f
 redirect_from:
   - /licking-the-yoghurt-lid-36be7816bf6f
 ---
-
-  
 
 ## Your tongue’s true mission.
 

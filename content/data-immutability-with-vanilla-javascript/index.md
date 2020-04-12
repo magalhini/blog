@@ -14,7 +14,7 @@ redirect_from:
 
 ## Unlike most _trends_ in the world of JavaScript, data immutability is bound to stick with us for a while, and for good reason: firstly, because it’s not _a trend:_ it’s a way of coding (and thinking in code) that promotes clarity, ease of use and understanding data flow, and makes code less prone to errors.
 
-But while newer flavours of the JS language gives us a more robust [toolset](https://hackernoon.com/tagged/toolset) to work with than ever before, without the use of libraries like [**Immutable.js**](https://facebook.github.io/immutable-js/), things can still look a little bit scary when you put it all together. Getting comfortable with reading and writing the most common use cases is very helpful.
+But `while newer` flavours of the JS language gives us a more robust [toolset](https://hackernoon.com/tagged/toolset) to work with than ever before, without the use of libraries like [**Immutable.js**](https://facebook.github.io/immutable-js/), things can still look a little bit scary when you put it all together. Getting comfortable with reading and writing the most common use cases is very helpful.
 
 In this short post, we’ll look at pure JS ways (with ES2015++, and yes, I may have just invented this notation) to, add, remove, and update deeply nested properties in Objects, Arrays, and finding common patterns to reproduce these operations.
 
@@ -121,7 +121,7 @@ Which would give us a brand new copy of the object, except for that one ignored 
 
 ### Aside: using lodash
 
-If you’re using **lodash** in your project, then you can make use of some its methods to help you change objects. **However, you should note that by default, some of lodash’s methods mutate the original objects**, which more often than not will mess up your immutable data. An exception, however, is [the](https://lodash.com/docs/4.17.4#omit) `[_.omit](https://lodash.com/docs/4.17.4#omit)` [method](https://lodash.com/docs/4.17.4#omit), which you can use to delete a property from an object.
+If you’re using **lodash** in your project, then you can make use of some its methods to help you change objects. **However, you should note that by default, some of lodash’s methods mutate the original objects**, which more often than not will mess up your immutable data. An exception, however, is [the \_.omit method](https://lodash.com/docs/4.17.4#omit), which you can use to delete a property from an object.
 
 Once again, let’s try and remove the _interests_ property like we did before, but using lodash. This time, we'll write it in a reducer-style function, just as an example:
 

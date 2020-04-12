@@ -1,8 +1,7 @@
 // prism theme
-import './static/prism-theme.css';
-import { wrapRootElement as wrap } from './src/components/wrap-root-element';
+import { wrapRootElement as wrap } from './src/components/wrap-root-element'
+
+require('prismjs/themes/prism-coy.css')
 
 // eslint-disable-next-line import/prefer-default-export
-export const wrapRootElement = wrap;
-
-// <link rel="stylesheet" href="https://use.typekit.net/gum3gab.css">
+export const wrapRootElement = wrap

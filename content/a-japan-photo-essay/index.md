@@ -7,8 +7,7 @@ categories:
 published: true
 ---
 
-<div class="color">In May of 2019, I set out to do a rather ambitious journey: running across Japan. Of course, not really _running across Japan_, but rather, several segments of different cities, villages and mountains, while still taking public transportation from major city to major city.
-Here’s the deal. Running and photography have historically fuelled my travels for as long as I can remember. It’s no wonder that half of my 10 litre Solomon backpack is composed of camera gear, and the other half is water. 100% of my survival kit, really.</div>
+In May of 2019, I set out to do a rather ambitious journey: running across Japan. Of course, not really _running across Japan_, but rather, several segments of different cities, villages and mountains, while still taking public transportation from major city to major city. Here’s the deal. Running and photography have historically fuelled my travels for as long as I can remember. It’s no wonder that half of my 10 litre Solomon backpack is composed of camera gear, and the other half is water. 100% of my survival kit, really.
 
 These are a few of my favourite shots from the trip, which involved mostly street shooting, getting to know people in coffee shops and libraries, making friends in the most peculiar and uncomfortable situations.
 

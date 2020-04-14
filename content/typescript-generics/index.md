@@ -133,4 +133,4 @@ const shelf2 = new Shelf<object, string>()
 
 Our `Shelf` class is instantiated twice, but with different types for each one of its stored values. If you were to package and release this Class into the wild, this could be a way of guaranteeing your users would not be limited to `string`, `number` or any other, while still ensuring type safety.
 
-Check out the [official documentation for more examples](https://www.typescriptlang.org/docs/handbook/generics.html)
+Check out the [official documentation for more examples](https://www.typescriptlang.org/docs/handbook/generics.html) and I'll soon be back for more starter guides on TS! 🎉

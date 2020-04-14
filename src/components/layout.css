@@ -23,7 +23,7 @@ html {
 code[class*='language-'],
 pre[class*='language-'] {
   display: inline !important;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 code[class*='language-undefined'] {

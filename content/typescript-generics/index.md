@@ -2,6 +2,8 @@
 title: 'TypeScript Generics: A gentle introduction'
 description: "Understanding generics isn't the easiest concept to grasp in TS. Let's break it down gently, and start from scratch to see how and when they can be useful. This is part one of a series in TS."
 date: '2020-04-14T17:08:52.748Z'
+categories:
+  - Development
 
 published: true
 ---

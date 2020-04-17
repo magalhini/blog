@@ -1,6 +1,6 @@
 ---
 title: 'Pandemic Running'
-description: 'As a runner of almost ten years, I have a few thoughts and feelings on what it means to be a runner during the pandeminc caused by COVID-19.'
+description: 'As a runner of almost ten years, I have a few thoughts and feelings on what it means to be a runner during the pandemic caused by COVID-19.'
 date: '2020-04-17T17:08:52.748Z'
 categories:
   - Running

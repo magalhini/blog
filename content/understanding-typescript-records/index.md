@@ -17,7 +17,7 @@ Typescript 2.1 [introduced the Record type](https://www.typescriptlang.org/docs/
 
 > Constructs a type with a set of properties `K` of type `T`. This utility can be used to map the properties of a type to another type.
 
-Its definition shows how it works internally, but it can a little scary to newcomers to the language:
+Its definition shows how it works internally, but it can be a little scary to newcomers to the language:
 
 ```ts
 type Record<K extends string, T> = {

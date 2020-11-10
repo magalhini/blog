@@ -161,4 +161,4 @@ const store: Record<ProductID, Availability> = {
 
 There are other ways to go about and type this object of course, but `Record` itself proves to be a useful abstraction that will check keys and value types for us.
 
-Check out the [official documentation for more examples](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkt) and I'll soon be back for more starter guides on TS! 🎉
+Check out the [official documentation for more examples](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeystype) and I'll soon be back for more starter guides on TS! 🎉

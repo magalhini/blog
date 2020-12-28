@@ -47,9 +47,9 @@ body {
   line-height: 1.6;
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'dolly-new', -apple-system, BlinkMacSystemFont, Avenir,
-    'Avenir Next', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'franklin-gothic-urw', -apple-system, BlinkMacSystemFont, Avenir,
+  'Avenir Next', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+  'Droid Sans', 'Helvetica Neue', sans-serif;
   height: 100%;
   background: #ffffff;
   color: rgba(0, 0, 0, 0.84);
@@ -243,4 +243,19 @@ figcaption {
   letter-spacing: 0;
   text-align: center;
   font-size: 14px;
+}
+
+
+/* Images */
+
+.picture--left {
+  float: left;
+  margin-right: 1rem;
+  display: block;
+}
+
+.caption {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  text-align: center;
 }

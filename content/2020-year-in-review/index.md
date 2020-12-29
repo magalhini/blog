@@ -17,13 +17,13 @@ And what a year it was.
 1. [Personal Life](#personal-life-)
 2. [Professional Life](#professional-life-)
 3. [Side Projects](#side-projects)
-3. [In Fitness](#in-fitness-♂%EF%B8%8F)
-4. [Travel](#travel-%EF%B8%8F)
-5. [Reading](#reading-)
+4. [In Fitness](#in-fitness-♂%EF%B8%8F)
+5. [Travel](#travel-%EF%B8%8F)
+6. [Reading](#reading-)
 7. [Best Purchases](#best-purchases-)
 8. [Gaming](#gaming-)
 9. [Favourite Thoughts](#favourite-thoughts-)
-10. 2021
+10. [2021](#2021-%C2%B2)
 
 ## Personal Life 🥂
 
@@ -124,7 +124,7 @@ Apart from a small weekend getaway in the summer to a cottage near Val-David, th
 
 ## Reading 📚
 
-One would think that I read so much more this year, given you-know-what, but turns out some activities have gotta give when you spend all of your time running, biking, looking at furniture online, and contemplating the doom of civilization. I'm writing another separate review of my books of 2020, but here's a list of everything that I've read this year:
+One would think that I read so much more this year, given you-know-what, but turns out some activities have gotta give when you spend all of your time running, biking, looking at furniture online, and contemplating the doom of civilization. I'm writing another separate review of my books of 2020, so for now here's a list of everything that I've read this year, and my personal rating:
 
 
 - The Pocket Thich Nhat Hanh, by **Thich Nhat Hanh**
@@ -269,7 +269,7 @@ I can tell you that for renewal, a tough-minded optimism is best. The future is 
 
 # 2021 ²
 
-In December 2019 I made no goals or plans for 2020. In hindsight, that was a great year to skip all of the usual future planning, given the way the year turned out to be, but I would like to grab on to a little more future-thinking this time.
+In December 2019 I made no goals or plans whatsoever for 2020. In hindsight, that was a great year to skip all of the usual future planning, given the way the year turned out to be, but I would like to grab on to a little more future-thinking this time.
 
 ## 1. Stop being so bitter, man
 
@@ -303,3 +303,12 @@ I think I've only written 3 blog articles this year; 2 technical, 1 non-technica
 
 It didn't do me much good, in the end, and I'd like to be more mindful of this next year.
 
+## 6. Travel more in Quebéc
+
+Even if traveling isn't encouraged / allowed, I'm hoping at some point it'll be safer to explore our own regions, just like it was this summer. It would be amazing, at the very least, to do some inner-province travelling with my wife more often. To do this I would need to finally convert my drivers' license to a Canadian one and, if things go well, get a car. Bonus points if I can make it an eco-friendly one.
+
+## 7. Theme of the year for 2021?
+
+Oof. I may change it tomorrow, but today I'm going with "**regeneration**". For my mind, for my body, and for the world, at least in what's left of my control next year. I love the idea of regeneration being my North star.
+
+Thanks for reading!

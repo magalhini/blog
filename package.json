@@ -14,7 +14,7 @@
     "@weknow/gatsby-remark-twitter": "^0.2.3",
     "axios": "^0.19.2",
     "change-case": "^4.1.1",
-    "gatsby": "^2.20.18",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.3.2",
     "gatsby-mdx": "^0.6.3",
     "gatsby-plugin-feed": "^2.4.1",

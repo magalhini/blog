@@ -56,7 +56,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
-    "lint-staged": "^8.1.7",
+    "lint-staged": "^13.1.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.19.1",
     "wait-for-netlify-preview": "^1.2.1"
